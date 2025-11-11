@@ -1,16 +1,12 @@
 /*
 ========================================
-Create Database and Schemas
+DDL Script: Create Bronze tables
 ========================================
 Script Purpose:
-This script creates a new database named 'Datawarehouse' after checking if it already
-If the database exists, it is dropped and recreated. Additionally, the script sets up
-within the database: 'bronze', 'silver', and 'gold'.
-
-WARNING:
-Running this script will drop the entire 'Datawarehouse' database if it exists.
-All data in the database will be permanently deleted. Proceed with caution
-and ensure you have proper backups before running this script.
+   this scripts creates tables in the 'bronze' schema , dropping existing tables
+   if they already exists.
+   Run this script to re-define the DDL structure of 'bronze' Tables
+====================================================================
 */
 
 --- Create Database 'DataWarehouse'
